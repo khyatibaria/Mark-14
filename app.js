@@ -11,7 +11,7 @@ function calculateProfitAndLoss( initial, quantity, current){
     var current= currentPrice.value;
 
     if(initial > current){
-        var loss=(initial-current)* quantity;
+        var loss=(initial-current) * quantity;
         var lossPercentage=(loss/initial)*100;
         resultDiv.innerText=`Hey your Loss is ${loss} and Loss Percentage is ${lossPercentage}`;
     }
