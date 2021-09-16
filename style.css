@@ -36,9 +36,11 @@ button {
 }
 
 #resultdiv {
+    
     padding: 1rem;
     font-size: 2rem;
     margin: auto;
+    margin-top: 3rem;
     color: #262A53;
-    background-color: cyan;
+    background-color: #FFD523;
 }
